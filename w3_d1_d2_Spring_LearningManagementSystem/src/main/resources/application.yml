@@ -1,0 +1,14 @@
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ContactDB
+    username: root
+    password: admin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always

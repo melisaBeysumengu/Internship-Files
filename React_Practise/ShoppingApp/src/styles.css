@@ -1,0 +1,13 @@
+ul.reset-style {
+  list-style: none;
+}
+ul.custom-style-base li:before {
+  position: absolute;
+  margin-left: -1.5em;
+  padding-right: 1em;
+  color: rgba(255, 0, 0, 1);
+  content: "\25CF";
+}
+ul.custom-style-hover-color li:hover:before {
+  color: rgba(255, 0, 0, 0.5);
+}
